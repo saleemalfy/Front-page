@@ -7,7 +7,8 @@
 }
 
 i {
-    color: #7F0600;
+    color: darkgreen;
+    background-color: gold;
 }
 
 p:"AGP" {
@@ -196,7 +197,8 @@ a:hover {
 }
 
 header {
-    margin-left: .1rem;
+    margin-left: .21rem;
+    margin-bottom: 1rem;
     padding-bottom: ;
     width: 100%;
     height: auto;
@@ -227,7 +229,6 @@ h1 {
     border-style: ridge;
     border-color: yellow;
     /*background-color: #5A9453;*/
-    font-size: .75rem;
     width: 100%;
     height: auto;
     font-family: 'Russo One', sans-serif;
@@ -345,13 +346,6 @@ span {
     border-bottom: 1rem;
 }
 
-.side {
-    padding: 17px;
-    font-family: 'Droid Serif', serif;
-    font-size: 1.3rem;
-    background-color: rgba(194, 168, 66, 0.96);
-}
-
 img {
     width: 100%;
 }
@@ -366,7 +360,7 @@ img {
     }
 }
 .masthead {
-    height: 15rem;
+    height: 11.5rem;
 }
 .footer {
     max-width: 40%;
@@ -386,13 +380,13 @@ img {
     }
     
     .primary {
-        ;
         float: left;
-        margin-right: 3rem;
+        margin-right: 2rem;
+        margin-left: 1rem;
     }
     
     li {
-        max-width: 19.4%
+        max-width: 24.5%
     }
     
     .mainnav ul {
@@ -406,7 +400,7 @@ img {
     
     .mainnav ul li {
         float: left;
-        width: 16.5%;
+        width: 24.5%;
         /*max-width: 30%;*/
         background-color: purple;
         margin-bottom: 3rem;
